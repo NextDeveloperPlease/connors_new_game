@@ -1,5 +1,5 @@
-res://Worlds/Mines.tscn
+res://Assets/Pause_menu.tscn
 res://Assets/TileSets/MineTileSet.tres
-res://Scripts/Main_character.gd
-res://Scripts/global_values.gd
-res://Assets/Boulder.tscn
+res://Scripts/Pause_menu_script.gd
+res://Assets/Quit.tscn
+res://Scripts/Start_script.gd

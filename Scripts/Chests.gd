@@ -14,10 +14,7 @@ func _input(event: InputEvent) -> void:
 	var tokens = randi_range(10, 100)
 	if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT) and entered and range_entered and not opened:
 		GlobalValues.add_tokens(tokens * GlobalValues.multiplier)
-		print(GlobalValues.tokens)
 		opened = true
-	if Input.is_key_pressed(KEY_ESCAPE):
-		print(GlobalValues.tokens)
 
 
 func _on_mouse_entered() -> void:

@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://unujekffof6g"]
+
+[ext_resource type="Texture2D" uid="uid://u27sg6w7fw88" path="res://Art/Caves and Mines/Silver_ore.png" id="1_ivv7v"]
+[ext_resource type="Script" path="res://Scripts/Ores.gd" id="1_wpoqi"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jr8xw"]
+size = Vector2(46.5, 20)
+
+[node name="Silver_ore" type="Area2D"]
+script = ExtResource("1_wpoqi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_jr8xw")
+
+[node name="Silver_art" type="Sprite2D" parent="."]
+position = Vector2(48, 48)
+texture = ExtResource("1_ivv7v")
+
+[connection signal="body_shape_entered" from="." to="." method="_on_body_shape_entered"]
+[connection signal="body_shape_exited" from="." to="." method="_on_body_shape_exited"]
+[connection signal="mouse_shape_entered" from="." to="." method="_on_mouse_shape_entered"]
+[connection signal="mouse_shape_exited" from="." to="." method="_on_mouse_shape_exited"]

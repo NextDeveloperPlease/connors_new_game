@@ -10,20 +10,25 @@ func _ready() -> void:
 
 func add_gems(amount):
 	gems += amount
-	print(gems)
+	print('Gems: ' + str(gems))
 
 func remove_gems(amount):
 	gems -= amount
-	print(gems)
+	print('Gems: ' + str(gems))
 
 func add_tokens(amount):
 	tokens += amount
-	print(tokens)
+	print('Tokens: ' + str(tokens))
 
 func remove_tokens(amount):
 	tokens -= amount
-	print(tokens)
+	print('Tokens: ' + str(tokens))
 
 func increase_mult(amount):
 	multiplier += amount
-	print(multiplier)
+	print('Multiplier: ' + str(multiplier))
+
+func _input(event: InputEvent) -> void:
+	if Input.is_key_pressed(KEY_ESCAPE):
+		print('Gems: ' + str(gems))
+		print('Tokens: ' + str(tokens))

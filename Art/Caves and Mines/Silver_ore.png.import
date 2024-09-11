@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://u27sg6w7fw88"
-path="res://.godot/imported/Silver.png-edd67f510db007af6d466ec6024b8d5e.ctex"
+path="res://.godot/imported/Silver_ore.png-76939918df616dba342748a0489dd89c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/Caves and Mines/Silver.png"
-dest_files=["res://.godot/imported/Silver.png-edd67f510db007af6d466ec6024b8d5e.ctex"]
+source_file="res://Art/Caves and Mines/Silver_ore.png"
+dest_files=["res://.godot/imported/Silver_ore.png-76939918df616dba342748a0489dd89c.ctex"]
 
 [params]
 

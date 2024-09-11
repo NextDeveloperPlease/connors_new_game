@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=3 uid="uid://63n8uhftas6k"]
+
+[ext_resource type="Script" path="res://Scripts/Quit_script.gd" id="1_wpr5w"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_utiuk"]
+size = Vector2(352, 127)
+
+[node name="Node2D" type="Area2D"]
+process_mode = 3
+script = ExtResource("1_wpr5w")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(176, 64.5)
+shape = SubResource("RectangleShape2D_utiuk")
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_right = 353.0
+offset_bottom = 127.0
+mouse_filter = 2
+editable = false
+
+[node name="Label" type="Label" parent="TextEdit"]
+layout_mode = 0
+offset_left = 89.0
+offset_top = -6.0
+offset_right = 395.0
+offset_bottom = 110.0
+theme_override_font_sizes/font_size = 85
+text = "Quit"
+
+[connection signal="mouse_shape_entered" from="." to="." method="_on_mouse_shape_entered"]
+[connection signal="mouse_shape_exited" from="." to="." method="_on_mouse_shape_exited"]
