@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://hggkgab646is"]
+
+[ext_resource type="Texture2D" uid="uid://duc7vf5giur0d" path="res://Art/boulder.png" id="1_nxutk"]
+[ext_resource type="Script" path="res://Scripts/boulder.gd" id="1_td8v2"]
+[ext_resource type="Texture2D" uid="uid://b7uxamuoard1f" path="res://Art/boulder2.png" id="2_2d4m6"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_yg44i"]
+radius = 2.71662
+
+[node name="Node2D" type="Area2D"]
+script = ExtResource("1_td8v2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(10, 10)
+shape = SubResource("CircleShape2D_yg44i")
+
+[node name="Boulder_broken" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("1_nxutk")
+
+[node name="Boulder_unbroken" type="Sprite2D" parent="."]
+texture = ExtResource("2_2d4m6")
+
+[connection signal="mouse_shape_entered" from="." to="." method="_on_mouse_shape_entered"]
+[connection signal="mouse_shape_exited" from="." to="." method="_on_mouse_shape_exited"]
