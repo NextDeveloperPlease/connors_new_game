@@ -1,6 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1726075162
+::res://::1726084781
 icon.svg::CompressedTexture2D::2729169250278369017::1724624003::1726074911::1::::<><>::
+Test.gd::GDScript::-1::1726084645::0::1::::<>Area2D<>::
 ::res://Art/::1726074912
 boulder2.png::CompressedTexture2D::4675148387838020045::1724627321::1726074911::1::::<><>::
 boulder.png::CompressedTexture2D::8569148434033593081::1724627321::1726074911::1::::<><>::
@@ -104,21 +105,21 @@ Icons_37.png::CompressedTexture2D::2995425318954557047::1725914475::1726074912::
 Icons_38.png::CompressedTexture2D::4908582445523561486::1725914475::1726074912::1::::<><>::
 Icons_39.png::CompressedTexture2D::758088233139413697::1725914475::1726074911::1::::<><>::
 Icons_40.png::CompressedTexture2D::6424535682459034048::1725914475::1726074911::1::::<><>::
-::res://Assets/::1726076444
+::res://Assets/::1726084686
 Boulder.tscn::PackedScene::504090647114371734::1726076300::0::1::::<><>::uid://duc7vf5giur0d::::res://Art/boulder.png<>res://Scripts/boulder.gd<>uid://b7uxamuoard1f::::res://Art/boulder2.png
 Chests.tscn::PackedScene::2508790721765954797::1726006848::0::1::::<><>::uid://blqadsms1oxgl::::res://Art/Mine equipment/1 Icons/Icons_14.png<>res://Scripts/Chests.gd
 Ladder.tscn::PackedScene::3124607178836542980::1726006834::0::1::::<><>::uid://dejlx4mf2y86r::::res://Art/Ladder.png<>res://Scripts/Ladder.gd
 Main_character.tscn::PackedScene::5458640452201656882::1726006834::0::1::::<><>::res://Scripts/Main_character.gd<>uid://be5bav0r1yvv2::::res://icon.svg
-Pause_menu copy.tscn::PackedScene::-1::1726076444::0::1::::<><>::
-Quit.tscn::PackedScene::-1::1726076444::0::1::::<><>::
+Pause_menu.tscn::PackedScene::2595117523783247955::1726084686::0::1::::<><>::res://Scripts/Pause_menu_script.gd<>uid://b41lsd7kpexu0::::res://Assets/Restart.tscn<>uid://63n8uhftas6k::::res://Assets/Quit.tscn
+Quit.tscn::PackedScene::2234506043530726400::1726076587::0::1::::<><>::res://Scripts/Quit_script.gd
 Quit_main_menu.tscn::PackedScene::-1::1726076444::0::1::::<><>::
 Restart.tscn::PackedScene::-1::1726076444::0::1::::<><>::
 Ruby.tscn::PackedScene::3031088219653305018::1726076327::0::1::::<><>::res://Scripts/Ores.gd<>uid://d0jkurhkuq0gr::::res://Art/Caves and Mines/Ruby.png
 Silver_ore.tscn::PackedScene::1431844421339758744::1726076300::0::1::::<><>::uid://u27sg6w7fw88::::res://Art/Caves and Mines/Silver_ore.png<>res://Scripts/Ores.gd
 Start.tscn::PackedScene::-1::1726076444::0::1::::<><>::
-::res://Assets/TileSets/::1726074999
-MineTileSet.tres::TileSet::4936074398623193747::1726074999::0::1::::<><>::uid://dcs1hvidnegjw::::res://Art/Mine.png<>uid://do3o4hgbuwl3d::::res://Art/Caves and Mines/deepslate tiles.png<>uid://bs6ucdxfxsuv0::::res://Art/Caves and Mines/background tile.png<>uid://dnbwdfr812t20::::res://Art/Caves and Mines/Stone Tileset.png<>uid://xfcxg14qn4ua::::res://Art/Caves and Mines/ores.png
-::res://Scripts/::1726076149
+::res://Assets/TileSets/::1726076559
+MineTileSet.tres::TileSet::4936074398623193747::1726076559::0::1::::<><>::uid://dcs1hvidnegjw::::res://Art/Mine.png<>uid://do3o4hgbuwl3d::::res://Art/Caves and Mines/deepslate tiles.png<>uid://bs6ucdxfxsuv0::::res://Art/Caves and Mines/background tile.png<>uid://dnbwdfr812t20::::res://Art/Caves and Mines/Stone Tileset.png<>uid://xfcxg14qn4ua::::res://Art/Caves and Mines/ores.png
+::res://Scripts/::1726084668
 boulder.gd::GDScript::-1::1725261186::0::1::::<>Area2D<>::
 Chests.gd::GDScript::-1::1726075678::0::1::::<>Area2D<>::
 global_values.gd::GDScript::-1::1726075839::0::1::::<>Node<>::
@@ -126,5 +127,11 @@ Ladder.gd::GDScript::-1::1726006295::0::1::::<>Area2D<>::
 Main_character.gd::GDScript::-1::1726074890::0::1::::<>CharacterBody2D<>::
 Mine.gd::GDScript::-1::1726076149::0::1::::<>Node2D<>::
 Ores.gd::GDScript::-1::1726075958::0::1::::<>Area2D<>::
+Pause_button_script.gd::GDScript::-1::1726076516::0::1::::<>Area2D<>::
+Pause_menu_script.gd::GDScript::-1::1726076559::0::1::::<>Node2D<>::
+Quit_main_menu_script.gd::GDScript::-1::1726084627::0::1::::<>Area2D<>::
+Quit_script.gd::GDScript::-1::1726076516::0::1::::<>Area2D<>::
+Restart_script.gd::GDScript::-1::1726076516::0::1::::<>Area2D<>::
+Start_script.gd::GDScript::-1::1726076652::0::1::::<>Area2D<>::
 ::res://Worlds/::1726076300
 Mines.tscn::PackedScene::7352063733932793427::1726076300::0::1::::<><>::res://Scripts/Mine.gd<>uid://hggkgab646is::::res://Assets/Boulder.tscn<>uid://cclcool2ovxeh::::res://Assets/TileSets/MineTileSet.tres<>uid://bb0jofv7qunvp::::res://Assets/Chests.tscn<>uid://bkrt3ahw4gb5e::::res://Assets/Ladder.tscn<>uid://unujekffof6g::::res://Assets/Silver_ore.tscn<>uid://cj1hamn0o0g15::::res://Assets/Main_character.tscn<>uid://bjgjtyvo20f6q::::res://Assets/Ruby.tscn

@@ -1,10 +1,11 @@
 [gd_scene load_steps=4 format=3 uid="uid://bc8dhaw6ahex4"]
 
 [ext_resource type="Script" path="res://Scripts/Pause_menu_script.gd" id="1_kihr6"]
-[ext_resource type="PackedScene" uid="uid://b41lsd7kpexu0" path="res://Assets/Restart.tscn" id="1_xsj0c"]
+[ext_resource type="PackedScene" uid="uid://5ae2bpsr47fn" path="res://Assets/Restart.tscn" id="1_xsj0c"]
 [ext_resource type="PackedScene" uid="uid://63n8uhftas6k" path="res://Assets/Quit.tscn" id="2_h23rk"]
 
 [node name="PauseMenu" type="Node2D"]
+process_mode = 3
 script = ExtResource("1_kihr6")
 
 [node name="Restart" parent="." instance=ExtResource("1_xsj0c")]

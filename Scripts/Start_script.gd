@@ -5,5 +5,4 @@ func _ready():
 	visible = true
 
 func switch_scene():
-	Scores.current_scene_number = 1
-	Scores.goto_next()
+	SceneSwitch.goto_scene(SceneSwitch.mines)

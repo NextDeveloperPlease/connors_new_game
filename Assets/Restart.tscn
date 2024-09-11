@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://b41lsd7kpexu0"]
+[gd_scene load_steps=3 format=3 uid="uid://5ae2bpsr47fn"]
 
 [ext_resource type="Script" path="res://Scripts/Restart_script.gd" id="1_loxam"]
 

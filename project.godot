@@ -11,13 +11,14 @@ config_version=5
 [application]
 
 config/name="Connor's New Game"
-run/main_scene="res://Worlds/Mines.tscn"
+run/main_scene="res://Worlds/MainMenu.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
 
 GlobalValues="*res://Scripts/global_values.gd"
+SceneSwitch="*res://Scripts/SceneSwitch.gd"
 
 [display]
 
