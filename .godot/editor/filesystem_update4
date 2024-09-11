@@ -1,0 +1,5 @@
+res://Worlds/Mines.tscn
+res://Assets/TileSets/MineTileSet.tres
+res://Scripts/Main_character.gd
+res://Scripts/global_values.gd
+res://Assets/Boulder.tscn

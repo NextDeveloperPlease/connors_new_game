@@ -5,7 +5,7 @@
 [ext_resource type="TileSet" uid="uid://cclcool2ovxeh" path="res://Assets/TileSets/MineTileSet.tres" id="3_fj5a1"]
 [ext_resource type="PackedScene" uid="uid://bb0jofv7qunvp" path="res://Assets/Chests.tscn" id="4_0u3jy"]
 [ext_resource type="PackedScene" uid="uid://bkrt3ahw4gb5e" path="res://Assets/Ladder.tscn" id="5_8qv6e"]
-[ext_resource type="PackedScene" uid="uid://cj1hamn0o0g15" path="res://Assets/Main_Character.tscn" id="6_qxm73"]
+[ext_resource type="PackedScene" uid="uid://cj1hamn0o0g15" path="res://Assets/Main_character.tscn" id="6_qxm73"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5cskj"]
 
@@ -13,10 +13,6 @@
 
 [node name="Mines" type="Node2D"]
 script = ExtResource("1_bo5td")
-
-[node name="Boulder" parent="." instance=ExtResource("2_2nnpk")]
-position = Vector2(-457, 271)
-scale = Vector2(10, 10)
 
 [node name="Background" type="TileMapLayer" parent="."]
 scale = Vector2(5, 5)
@@ -26,6 +22,10 @@ tile_set = ExtResource("3_fj5a1")
 [node name="Chests" parent="." instance=ExtResource("4_0u3jy")]
 position = Vector2(1650, 842)
 scale = Vector2(0.5, 0.5)
+
+[node name="Boulder" parent="." instance=ExtResource("2_2nnpk")]
+position = Vector2(527, 1020)
+scale = Vector2(5, 5)
 
 [node name="Ground" type="StaticBody2D" parent="."]
 position = Vector2(1053, 1090)

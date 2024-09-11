@@ -24,6 +24,11 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 
 
+func _input(event):
+	if Input.is_key_pressed(KEY_F):
+		get_tree().quit()
+
+
 func climb(object:int):
 	match(object):
 		0: if position.y > 900:
