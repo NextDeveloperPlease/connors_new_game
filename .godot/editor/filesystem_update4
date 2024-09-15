@@ -23,3 +23,4 @@ res://Scripts/Main_character.gd
 res://Scripts/Mine.gd
 res://Scripts/Pause_menu_script.gd
 res://Scripts/Quit_main_menu_script.gd
+res://Worlds/Game_hub.tscn
